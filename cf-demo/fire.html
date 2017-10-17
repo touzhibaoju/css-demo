@@ -1,0 +1,1075 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>穿越火线</title>
+  <meta charset="utf-8">
+</head>
+<style>
+  html,body{
+    padding: 0px;margin: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  .body{
+    width: 100%;
+    height: 100%;
+  }
+  .top{
+    height: 40px;
+
+  }
+  .main-top{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(http://ossweb-img.qq.com/upload/adw/image/1506569372/1506569372.jpg) 50% 0px no-repeat;
+  }
+  .top-center{
+    position: relative;
+    width: 1000px;height: 40px;
+    margin: 0px auto;
+
+  }
+  ul {
+    padding: 0px;margin: 0px;list-style: none;
+  }
+  .logo1,.logo2 {
+    float: left;
+  }
+  .logo1 {
+  	position: absolute;z-index: 99999
+  }
+  a {
+    display: inline-block;text-decoration: none;
+  }
+  .logo1 {
+    width: 205px;
+    height: 40px;
+    background: url(http://ossweb-img.qq.com/images/js/topfiles/ost1410/ost-bg.png) 9px -40px no-repeat;
+    padding: 0px 15px 0px 0px;
+  }
+  .logo2 {
+    width: 205px;margin-left: 220px; 
+    height: 40px;
+    background: url(https://itea-cdn.qq.com/file/o2/20170930/8358038131353800653150675588623040.1506755889.be7cc9c71e6db85239e81bfb3db14d64.jpg);
+  }
+  .logo3 {
+    float: right;
+    width: 220px;
+    height: 40px;
+  }
+  .logo3 span{
+    line-height: 40px;font-size: 10px;cursor: pointer;
+  }
+  .logo3-span1{
+    float: left;
+    width: 100px;
+    text-indent: 20px;
+    background: url(http://ossweb-img.qq.com/images/js/topfiles/ost1410/logo.png) 0 12px no-repeat;
+  }
+  .logo3-span2 i{
+    display: inline-block;
+    width: 20px;height: 20px;
+    background: url(http://ossweb-img.qq.com/images/js/topfiles/ost1410/ost-bg.png) -144px -125px no-repeat; 
+  }
+  .header {
+    position: relative;
+    top: 0px;left: 0px;
+    width: 1000px;height: 232px;
+    margin: 0px auto;
+  }
+  .container{
+    clear: both;
+    position: relative;top: -70px;left: 0px;
+    width: 1000px;height: 1800px;
+    margin: 0px auto;
+  }
+  .aside {
+    width: 290px;float: left;height: 100%;
+    background: url(http://game.gtimg.cn/images/cf/web201412/side-sp.png) no-repeat;
+  }
+  #pic {
+    width: 270px;height: 110px;
+    background: url(http://ossweb-img.qq.com/upload/adw/image/1506570336/1506570336.png) no-repeat;
+    position: relative;
+    top: 108px;left: 5px;
+  }
+  .f1,.f2{
+    float: left;
+  }
+
+  .f1 a {
+    display: block;height: 132px;width: 142px; 
+  }
+  #tongshang {
+    display: block;height: 132px;width: 142px; 
+  }
+  .f1 a span,.f2 a span{
+    width: 100%; height: 100%;display: block;
+  }
+  .xiao {
+    display: block;height: 60px;width: 142px;margin-bottom:12px; 
+  }
+  .span1 {
+    background: url(http://game.gtimg.cn/images/cf/web201412/side-sp-txt.png) no-repeat;
+  }
+  .span2 {
+    background: url(http://game.gtimg.cn/images/cf/web201412/side-sp-txt.png) 0px -132px no-repeat;
+  }
+  .span3 {
+    background: url(http://game.gtimg.cn/images/cf/web201412/side-sp-txt.png) 0px -264px no-repeat;
+  }
+  .span4 {
+    background: url(http://game.gtimg.cn/images/cf/web201412/side-sp-txt.png) -143px 2px  no-repeat;
+  }
+  .span5 {
+    background: url(http://game.gtimg.cn/images/cf/web201412/side-sp-txt.png) -142px -131px   no-repeat;
+  }
+  .span6 {
+    background: url(http://game.gtimg.cn/images/cf/web201412/side-sp-txt.png) -142px -203px   no-repeat;
+  }
+  .span7 {
+    background: url(http://game.gtimg.cn/images/cf/web201412/side-sp-txt.png) -142px -276px   no-repeat;
+  }
+  .span8 {
+    background: url(http://game.gtimg.cn/images/cf/web201412/side-sp-txt.png) -142px -345px   no-repeat;
+  }
+  .quick {
+    clear: both;
+  }
+  .quick-a {
+    width: 290px;height: 285px;border: 1px solid lightgrey;display: flex;
+    flex-flow: row wrap;
+      align-content: flex-start;
+  }
+  h3 {
+    display: block;
+      width: 290px;
+      height: 35px;
+  }
+  .teach-a {
+    width: 291px;height: 323px;
+  }
+  .teach-a a,.guanggao a{
+    width: 291px;height: 100px;border: 1px solid #f2f1f1;margin-bottom: 10px;
+  }
+  .teach-a a:hover,.guanggao a:hover {
+    box-shadow:0px 0px 10px grey;
+  }
+  .service-a {
+    width: 290px;height: 280px;border: 1px solid #f2f1f1;
+  }
+  .guanggao {
+    width: 290px;height: 327px;margin-top:20px; 
+  }
+  .nav {
+    position: relative;
+    top: -130px;left: 250px;background: red;
+  }
+  .l {
+    margin-left:20px; 
+  }
+  .ll {
+    margin-right:25px;float: left;
+  }
+  .ll:hover{
+    background: url(http://game.gtimg.cn/images/cf/web201412/main-sp.png) 0px 65px no-repeat;
+  }
+  .lla{
+    width:80px;height: 80px;
+  }
+  .ll ul {
+    margin-top: 10px; 
+  }
+  
+  .lllli{
+    color: white;font-size: 11px;text-align: center;padding: 5px 0px;
+  }
+  .lllli a {
+    color: white;
+  }
+  .banner i{
+    width: 50px;height: 40px;display: block;margin: 0px auto;margin-top: 20px;
+  }
+  .banner:hover {
+    background: lightgrey;
+  }
+  .banner span {
+    text-align: center;display: block;color: black;font-size: 15px;
+  }
+
+.banner{
+	    width: 145px;height: 95px;border: 1px solid #f2f1f1;box-sizing: border-box;
+}
+.banner i {
+	background: url(http://game.gtimg.cn/images/cf/web201412/main-sp.png) no-repeat;
+}
+.banner.b1 i{background-position:  0px -901px }
+.banner.b2 i{background-position: -50px -901px }
+.banner.b3 i{background-position: -50px -901px }
+.banner.b4 i{background-position: -150px -901px }
+.banner.b5 i{background-position: -200px -901px }
+.banner.b6 i{background-position: -250px -901px }
+
+
+  .teachs {
+    background: url(http://ossweb-img.qq.com/images/cf/web201412/pro_bg.jpg) no-repeat;
+  }
+  .teachs.a2 {
+    background-position: -300px 0px;
+  }
+  .teachs.a3 {
+    background-position:-600px 0px;
+  }
+  .guang {
+  	background: url(http://game.gtimg.cn/images/cf/web201412/bcoop_bg.jpg) no-repeat;
+  }
+  .guang.gao1 {
+    background-position: 0px -400px;    
+  }
+  .guang.gao2 {
+    background-position: 0px -274px;    
+  }
+  .guang.gao3 {
+    background-position: 0px -120px;    
+  }
+  .service-a-ul li{
+    float: left;border: 1px solid #f2f1f1;padding: 5px 10px;
+  }
+  .question {
+    position: relative;
+    clear: both;
+  }
+  .question ul {
+    position: absolute;
+    top: 0px;left: 0px;
+    display: none;
+    padding: 10px;
+  }
+  .question .question1 {
+    display: block;
+  }
+  .center {
+  	float: right;width: 700px;
+  }
+  .pingmu {
+  	position: relative;
+  	width: 700px;height: 410px;
+  	border: 1px solid black;
+  }
+  .video {
+	position: relative;top: -10px;left:0px;box-sizing: border-box;
+  }
+  .video-a {
+  	width: 700px;height: 285px;
+  	border: 1px solid lightgrey;
+  }
+  .news {
+  	position: relative;top: -10px;float: left;
+  }
+  .newsa {
+  	width: 459px;height: 330px;border: 1px solid lightgrey;
+  }
+  .huodong {
+  	float: left;height: 333px;width: 229px;margin-left: 10px; position: relative;top: -10px;
+  }
+  .hdpic {
+  	margin-bottom: 12px;
+  }
+  .hdpic img {
+  	width: 200px;height: 100px;
+  }
+  .gonglu {
+  	clear: both;
+  }
+  .gl {
+  	width: 700px;height: 280px;border: 1px solid lightgrey;
+  }
+  .mc {
+  	width: 700px;height: 280px;border: 1px solid lightgrey;
+  }
+  .footers {
+  	position: relative;clear: both;top: 20px;
+  }
+  .footersa {
+  	width: 330px;height: 40px;float: left;font-size: 11px;color: grey;
+  }
+  .footersb p {
+  	margin: 0px;padding: 0px;
+  }
+  .footersb {
+  	font-size: 11px;color: grey;float: left;
+  }
+  .input {
+  	float: right;width: 315px;height: 40px;border: 1px solid lightgrey;
+  	box-shadow: 0px 0px 5px 5px lightgrey; 
+  }
+  .input span {
+	color: grey;font-size: 13px;line-height: 40px;margin-left:30px; 
+  }
+  .jiantou {
+  	width: 40px;height: 40px;display:inline-block;float: right;
+  	background: url(http://game.gtimg.cn/images/cf/web201412/main-sp.png) -3px -1023px no-repeat;border-left: 2px solid lightgrey; 
+  }
+  .inputul {
+  	position: absolute;left: 685px;top: 48px;box-shadow: 0px 0px 2px 2px lightgrey;
+  	width: 300px;height: 170px;border: 1px solid lightgrey;padding: 5px 0px 0px 10px;overflow: auto;display: none;
+  }
+  .inputul li {
+	color: lightgrey; font-size: 13px;margin: 5px;cursor: pointer;
+  }
+  .inputul li:hover {
+  	text-decoration: underline;
+  }
+  .video-a {
+  	padding: 10px;box-sizing: border-box;
+  }
+  .videoul {
+	display: flex;flex-direction: row;width: 654px;height: 49px;margin: 0px auto;
+	border-bottom: 2px solid lightgrey;
+  }
+  .videoul li {
+  	float: left;flex: 1;padding: 20px;color: grey;font-size: 16px;
+  }
+  .videolist ul li a img {
+  	width: 200px; height: 115px;
+  }
+  .videolist ul {
+  	display: none;
+  }
+  .videolist .active {
+  	display: block;
+  }
+  .videolist {
+  	padding: 20px 10px;position: relative;
+  }
+  .videolist ul li {
+  	float:left;margin: 9px;
+  }
+  .videoul li:hover {
+  	color: black;
+  }
+  .videolista em{
+	display: block;font-size: 12px;color: black;width: 200px;
+  }
+  .icon {
+   	width: 60px;height: 60px;background: url(http://game.gtimg.cn/images/cf/web201412/main-sp.png) -129px -944px no-repeat;position: absolute;
+   }
+  .icon.a {
+  	top: 60px;left: 90px;
+  }
+  .icon.b {
+  	top: 60px;left: 310px;
+  }
+  .icon.c {
+  	top: 60px;left: 530px;
+  }
+  .newsa {
+  	box-sizing: border-box;
+  }
+  .newsaul {
+  	width: 413px;height: 50px;box-sizing: border-box;display: flex;flex-direction: row;margin: 20px 0px 0px 20px;border-bottom: 2px solid lightgrey;color: grey;
+  }
+  .newsaul li{
+  	float: left;flex: 1;text-align: center;
+  }
+  .newslist {
+  	position: relative;padding: 20px;font-size: 15px;color: grey;
+  }
+  .newslist ul {
+  	display: none;
+  }
+  .newslist .active-a {
+  	display: block;
+  }
+  .newslist li {
+  	margin: 5px;
+  }
+  .jc {
+  	background: #eff1f2;text-align: center;padding: 5px;
+  }
+  .glul li {
+  	float: left;flex: 1;text-align: center;line-height: 50px;color: grey;
+  }
+  .glul {
+	display: flex;flex-direction: row;width: 654px;height: 49px;margin: 0px auto;
+	border-bottom: 2px solid lightgrey;
+  }
+  .mcul {
+	display: flex;flex-direction: row;width: 654px;height: 49px;margin: 0px auto;
+	border-bottom: 2px solid lightgrey;  	
+  }
+  .mcul li {
+  	float: left;flex: 1;text-align: center;line-height: 50px;color: grey;
+  }
+  .gllist {
+  	width: 654px;height: 205px;margin: 30px auto;display: none;
+  }
+  #gllista {
+  	width: 654px;height: 205px;margin: 30px auto;display: block;
+  }
+  .leftpic {
+  	float: left;
+  }
+  .leftpic img {
+  	width: 260px;height: 170px;
+  }
+  .gllist ul {
+  	float: right;
+  }
+  .lijc {
+	border-bottom:1px dotted grey;text-align: center;font-size: 17px;color:black;margin-bottom: 10px;padding-bottom: 10px;  
+  }
+  .item {
+  	margin: 5px;text-align: center;font-size: 15px;
+  }
+  .gllists ul {
+  	float: right;
+  }
+  .lijcs {
+	border-bottom:1px dotted grey;text-align: center;font-size: 17px;color:black;margin-bottom: 10px;padding-bottom: 10px;  
+  }
+  .items {
+  	margin: 5px;text-align: center;font-size: 15px;
+  }
+  .gllists {
+  	width: 654px;height: 205px;margin: 30px auto;display: none;
+  }
+  #gllistas {
+  	width: 654px;height: 205px;margin: 30px auto;display: block;
+  }
+  .pm-b-ul {
+  	position: absolute;bottom: 0px;
+  }
+  .pm-b-ul li {
+	float: left;color: grey;width:116px;height:39px;text-align: center;line-height: 39px;background: #1b1b1b;font-size: 15px;border-top: #575757 solid 5px;
+  }
+  #pm-t-ul {
+  	
+  }
+  #pm-t-ul li{
+	float: left;position: absolute;
+  }
+  .footer {
+  	width: 100%;height: 130px;background: #232222;position: relative;top: 250px;
+  }
+  .text {
+  	width: 1000px;height: 130px;margin: 0px auto;
+  }
+  .footerpic {
+  	position: relative;
+  	width: 419px;height: 130px;
+  	background:url(http://game.gtimg.cn/images/cf/web201105/foot_bg.jpg) 30px -66px no-repeat;
+  }
+  .footertext {
+  	position: relative;left: 330px;top: -110px;color: grey;font-size: 13px;width: 700px;
+  }
+  #logopic {
+	position: absolute;z-index: 5555;left: 0px;display: none;
+  }
+  #h {
+  	background: url(game.gtimg.cn/images/cf/web201412/main-sp.png) 0px 0px no-repeat;
+  }
+</style>
+<body>
+  <div class="body">
+    <div class="top">
+      <div class="top-center">
+        <ul>
+          <li class="logo1"><a href=""></a></li>
+          <li class="logo2"></li>
+          <li class="logo3">
+            <span class="logo3-span1">成长守护平台</span>
+            <span class="logo3-span2">腾讯游戏排行榜<i></i></span>
+          </li>
+          <img src="https://itea-cdn.qq.com/file/o2/20170930/12360063679427340591506749873970185.1506749878.a7393351be7430c4ec3acc9fe9b9d3b3.jpg" alt="" id="logopic">
+        </ul>
+      </div>
+    </div>
+    <div class="main-top">
+      <div class="header">
+        <a href="" id="pic"></a>
+        <div class="nav">
+          <ul class="l">
+            <li class="ll">
+              <a href="" title="官网首页" class="lla"></a>
+            </li>
+            <li class="ll">
+              <a href="" title="游戏资料" class="lla"></a>
+              <ul class="llla">
+                <li class="lllli"><a href="">游戏介绍</a></li>
+                <li class="lllli"><a href="">新手教程</a></li>
+                <li class="lllli" id="h"><a href="">版本专区</a></li>
+                <li class="lllli"><a href="">漫画</a> | <a href="">壁纸</a></li>
+              </ul>
+            </li>
+            <li class="ll">
+              <a href="" title="商城专区" class="lla"></a>
+              <ul class="llla">
+                <li class="lllli"><a href="">道聚城</a></li>
+                <li class="lllli"><a href="">周边商城</a></li>
+                <li class="lllli"><a href="">心悦会员</a></li>
+                <li class="lllli"><a href="">CFVIP</a></li>
+              </ul>             
+            </li>
+            <li class="ll">
+              <a href="" title="竞技中心" class="lla"></a>
+              <ul class="llla">
+                <li class="lllli"><a href="">战队系统</a></li>
+                <li class="lllli"><a href="">赛事专区</a></li>
+                <li class="lllli"><a href="">枪王排位</a></li>
+              </ul>
+            </li>
+            <li class="ll">
+              <a href="" title="活动中心" class="lla"></a>
+              <ul class="llla">
+                <li class="lllli"><a href="">活动专区</a></li>
+                <li class="lllli"><a href="">合作专区</a></li>
+                <li class="lllli"><a href="">品牌专区</a></li>
+                <li class="lllli"><a href="">CDK兑换</a></li>
+              </ul>             
+            </li>
+            <li class="ll">
+              <a href="" title="玩家互动" class="lla"></a>
+              <ul class="llla">
+                <li class="lllli"><a href="">论坛</a> | <a href="">部落</a> | <a href="">微博</a></li>
+                <li class="lllli"><a href="">直播</a> | <a href="">视频</a> | <a href="">攻略</a></li>
+                <li class="lllli"><a href="">掌上CF</a></li>
+              </ul>             
+            </li>
+            <li class="ll">
+              <a href="" title="在线客服" class="lla"></a>
+              <ul class="llla">
+                <li class="lllli"><a href="">安全专题站</a></li>
+                <li class="lllli"><a href="">联系客服</a></li>
+                <li class="lllli"><a href="">自助工具</a></li>
+                <li class="lllli"><a href="">体验服</a></li>
+              </ul>             
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+		<div class="center"> 
+			<div class="pingmu">
+				<img src="http://ossweb-img.qq.com/upload/adw/image/1506073354/1506073354.jpg?_r=1507629945455" alt="" id="pm-t-ul">
+				 <ul class='pm-b-ul'>
+				 	 <li>百件道具疯狂领</li> 
+				 	 <li>CFPL秋季赛</li> 
+				 	 <li>武器皮肤预售</li>
+				 	 <li>新版本上线</li> 
+				 	 <li>十月的快乐</li> 
+				 	 <li>国庆主题巡展</li> 
+				 </ul>
+			</div> 
+			<div class="video">
+				<h3><em>视频中心</em></h3>
+				<div class="video-a">
+					<ul class="videoul">
+						<li>最新视频</li>
+						<li>赛事回顾</li>
+						<li>进阶教学</li>
+						<li>娱乐视频</li>
+						<li>精品栏目</li>
+						<li>直播推荐</li>
+					</ul>
+					<div class="videolist">
+						<ul class="active">
+							<li><a href="" class="videolista"><img src="http://shp.qpic.cn/cfwebcap/2567788430/ca9be91b078aa024c99762c6da522074/0/" alt="">
+							<span class='icon a'></span>
+							<em>【主播炸了CF超神篇】09：禽兽狙五爆头灭队！</em></a>
+							</li>
+							<li><a href="" class="videolista"><img src="http://shp.qpic.cn/cfwebcap/2567788430/0c09c23ff96ae3593b9f8b02b3a86b1f/0/" alt="">
+							<span class='icon b'></span>
+							<em>《暴走集锦》32期：巴雷特艺术，牵动你的神经！</em></a>
+							</li>
+							<li><a href="" class="videolista"><img src="http://shp.qpic.cn/cfwebcap/2567788430/ae4a36e0c72d9319310d5383812349c2/0/" alt="">
+							<span class='icon c'></span>
+							<em>【CF囧哥来了】26：火线推“共享单车”快捷冲锋改变战场</em></a>
+							</li>
+						</ul>
+						<ul>
+							<li><a href="" class="videolista"><img src="http://shp.qpic.cn/cfwebcap/2134569954/f5480f8e56fafb153e89f34a34094169/0/" alt="">
+							<span class='icon a'></span>
+							<em>主播炸了CF赛事端游：非正常死法，zdd竟失足摔死</em></a>
+							</li>
+							<li><a href="" class="videolista"><img src="http://shp.qpic.cn/cfwebcap/2134569954/3d5bf733356d12831b16af7d5e68736a/0/" alt=""><span class='icon b'></span><em>CFPL《大神的咆哮》第五期：绝迹和石头谁才是真正的爸爸</em></a>
+							</li>
+							<li><a href="" class="videolista"><img src="http://shp.qpic.cn/cfwebcap/2134569954/b1adbf330b327d5a5ba94b0eac00f324/0/" alt=""><span class='icon c'></span><em>CFPL《火线神评论》1003期：全明星赛宠儿斩获枪王狙神</em></a>
+							</li>
+						</ul>
+						<ul>
+							<li><a href="" class="videolista"><img src="https://shp.qpic.cn/qqvideo_ori/0/w0352q8almc_228_128/0" alt=""><span class='icon a'></span><em>海风时代：生化酒店跳点教程讲解2</em></a>
+							</li>
+							<li><a href="" class="videolista"><img src="https://shp.qpic.cn/qqvideo_ori/0/r0352yw9xrg_228_128/0" alt=""><span class='icon b'></span><em>轩少解说：爆堕天使角色稀有武器，心得分享</em></a>
+							</li>
+							<li><a href="" class="videolista"><img src="https://shp.qpic.cn/qqvideo_ori/0/x0354xhej7r_228_128/0" alt=""><span class='icon c'></span><em>穿越火线最新模式暴走大头玩法讲解</em></a>
+							</li>
+						</ul>
+						<ul>
+							<li><a href="" class="videolista"><img src="https://shp.qpic.cn/qqvideo_ori/0/m0355xc6qqk_228_128/0" alt=""><span class='icon a'></span><em>维京：如何改变AK爆破瞎扫的换习惯</em></a>
+							</li>
+							<li><a href="" class="videolista"><img src="https://shp.qpic.cn/qqvideo_ori/0/y0355hq8zv4_228_128/0" alt=""><span class='icon b'></span><em>仰慕解说：游戏玩的好，你的人生一定很精彩！</em></a>
+							</li>
+							<li><a href="" class="videolista"><img src="http://shp.qpic.cn/qqvideo_ori/0/f0353m37een_228_128/0" alt=""><span class='icon c'></span><em>紫乐解说：比赛全能狙击手的步枪逆风拯救世界！</em></a>
+							</li>
+						</ul>
+						<ul>
+							<li><a href="" class="videolista"><img src="http://shp.qpic.cn/cfwebcap/2567788430/e7194b828ea6825f7f69c51fac884070/0/" alt=""><span class='icon a'></span><em>【火线传奇第三季】04：解围！审判参上！</em></a>
+							</li>
+							<li><a href="" class="videolista"><img src="http://shp.qpic.cn/cfwebcap/1845281145/44d8365af499bc4cab642405ef9ad2fd/0/" alt=""><span class='icon b'></span><em>【火线传奇第三季】03：反击！铿锵玫瑰！</em></a>
+							</li>
+							<li><a href="" class="videolista"><img src="http://puui.qpic.cn/qqvideo_ori/0/u0502hu6137_228_128/0" alt=""><span class='icon c'></span><em>【火线传奇第三季】02：刺杀！全线危急！</em></a>
+							</li>
+						</ul>
+						<ul>
+							<li><a href="" class="videolista"><img src="http://img.plures.net/live/screenshots/426761/7.jpg" alt=""><span class='icon a'></span><em>上上分 有没有1314~~</em></a>
+							</li>
+							<li><a href="" class="videolista"><img src="http://img.plures.net/live/screenshots/256837/7.jpg" alt=""><span class='icon b'></span><em>教科书一样的排位</em></a>
+							</li>
+							<li><a href="" class="videolista"><img src="http://img.plures.net/live/screenshots/360055/7.jpg" alt=""><span class='icon c'></span><em>1314宗师，守护枪王！</em></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="news">
+				<h3><em>新闻公告</em></h3>
+				<div class="newsa">
+					<ul class='newsaul'>
+						<li>综合</li>
+						<li>公告</li>
+						<li>赛事</li>
+						<li>论坛</li>
+					</ul>
+					<div class='newslist'>
+						<ul class='active-a'>
+							<div class='jc'><li>10月11日、12日《武器·新生》新版本上线公告</li></div>
+							<li>斗鱼枪王堂迎来决赛！见证狙神诞生</li>
+							<li>关于打击游戏内“穿点”行为的公告</li>
+							<li>10月9日西部战区网络波动说明</li>
+							<li>够真才出涩 深圳玩家躺赢1500余支维他柠檬茶</li>
+							<li>武器重做 个性皮肤 《武器·新生》全解析！</li>
+						</ul>
+						<ul>
+							<div class='jc'><li>10月11日、12日《武器·新生》新版本上线公告</li></div>
+							<li>关于打击游戏内“穿点”行为的公告</li>
+							<li>10月9日西部战区网络波动说明</li>
+							<li>10月6日部分大区网络波动公告（已完成）</li>
+							<li>9月30日服务器维护公告（已完成）</li>
+							<li>“武器重做计划”正式服延期上线说明</li>
+						</ul>
+						<ul>
+							<div class='jc'><li>江山代有才人出 S11常规赛赛场上的闪耀新星</li></div>
+							<li>CFPL10.8综述惊天逆袭 游久携手PG成功保级</li>
+							<li>【CFPL综述】保级赛尘埃落定 游久PG晋级</li>
+							<li>【CFPL战报】功败垂成，PG2比0打败东方</li>
+							<li>【CFPL战报】生死局，游久2比0带走vivi</li>
+							<li>CFPL盘点 那些职业场上的双修选手</li>
+						</ul>
+						<ul>
+							<div class='jc'><li>[分享]2017万圣节武器，俏皮小幽灵来袭！</li></div>
+							<li>[分享]萌趣万圣节，动态特效武器抢先看！</li>
+							<li>[原创]Happy Halloween，萌趣可爱的万圣节</li>
+							<li>[分享]科普贴之电脑配置与FPS的那些事</li>
+							<li>[分享]一千个人眼中的一千个哈姆雷特之万化</li>
+							<li>[话题]排位赛地图，我觉得怎么能少了它？</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="huodong">
+				<h3><em>活动中心</em></h3>
+				<a href="" class="hdpic"><img src="http://ossweb-img.qq.com/images/clientpop/act/cf_1505819419_sSmallImgUrl.jpg" alt=""></a>
+				<a href="" class="hdpic"><img src="http://ossweb-img.qq.com/images/clientpop/act/cf_1506763697_sSmallImgUrl.jpg" alt=""></a>
+				<a href="" class="hdpic"><img src="http://ossweb-img.qq.com/images/clientpop/act/cf_1506763827_sSmallImgUrl.jpg" alt=""></a>
+			</div>
+			<div class="gonglu">
+				<h3><em>攻略中心</em></h3>
+				<div class="gl">
+					<ul class='glul'>
+						<li>最新</li>
+						<li>推荐</li>
+						<li>技巧</li>
+						<li>赛事</li>
+						<li>娱乐</li>
+						<li>互动</li>
+					</ul>
+					<div class='gllist' id="gllista">
+						<div class='leftpic'><img src="http://shp.qpic.cn/cfwebcap/2134569954/02405403ca0773e7090f03b1206821b7/0/" alt=""></div>
+						<ul>
+							<div class='lijc'><li>江山代有才人出 S11常规赛赛场上的闪耀</li></div>
+							<li class='item'>CFPL10.8综述惊天逆袭 游久携手PG成功保级</li>
+							<li class='item'>【CFPL综述】保级赛尘埃落定 游久PG晋级八强</li>
+							<li class='item'>【CFPL战报】功败垂成，PG2比0打败东方丽羽</li>
+							<li class='item'>【CFPL战报】生死局，游久2比0带走vivi</li>
+						</ul>
+					</div>
+					<div class='gllist'>
+						<div class='leftpic'><img src="http://shp.qpic.cn/cfwebcap/2567788430/c0dd43e30e3a6327c44311b3b4ac2d41/0/" alt=""></div>
+						<ul>
+							<div class='lijc'><li>打爆破，靠“骂”才能赢吗？</li></div>
+							<li class='item'>福利集中营——9月一锤定音</li>
+							<li class='item'>火线剧组——《敢死队2》中的CF名枪</li>
+							<li class='item'>福利集中营——加特林神枪节</li>
+							<li class='item'>难以窥测的沙之秘境，谁能主宰沉浮(1)</li>
+						</ul>
+					</div>
+					<div class='gllist'>
+						<div class='leftpic'><img src="http://shp.qpic.cn/cfwebcap/2567788430/0ed0ff037efde0025cd1571422e9e527/0/" alt=""></div>
+						<ul>
+							<div class='lijc'><li>江山代有才人出 S11常规赛赛场上的闪耀</li></div>
+							<li class='item'>CFPL10.8综述惊天逆袭 游久携手PG成功保级</li>
+							<li class='item'>【CFPL综述】保级赛尘埃落定 游久PG晋级八强</li>
+							<li class='item'>【CFPL战报】功败垂成，PG2比0打败东方丽羽</li>
+							<li class='item'>【CFPL战报】生死局，游久2比0带走vivi</li>
+						</ul>
+					</div>
+					<div class='gllist'>
+						<div class='leftpic'><img src="http://shp.qpic.cn/cfwebcap/2567788430/c1a16544ff2dd0f93e3ac10506fde5a0/0/" alt=""></div>
+						<ul>
+							<div class='lijc'><li>原CF白鲨俱乐部成员表示：白鲨一直是大哥</li></div>
+							<li class='item'>念旧兴趣爱好大公开，除了CF他还爱这个</li>
+							<li class='item'>CF马哲最爱食物揭秘火锅or烧烤哪个才是最爱？</li>
+							<li class='item'>腾讯游戏家盛典来袭！百万粉丝力鼎CF白鲨</li>
+							<li class='item'>职业选手亦如常人，曝CF马哲国庆假期陪家人</li>
+						</ul>
+					</div>
+					<div class='gllist'>
+						<div class='leftpic'><img src="http://shp.qpic.cn/cfwebcap/2567788430/5ed29544461822b29376b89250c24f14/0/" alt=""></div>
+						<ul>
+							<div class='lijc'><li>江山代有才人出 S11常规赛赛场上的闪耀4</li></div>
+							<li class='item'>CFPL10.8综述惊天逆袭 游久携手PG成功保级</li>
+							<li class='item'>【CFPL综述】保级赛尘埃落定 游久PG晋级八强</li>
+							<li class='item'>【CFPL战报】功败垂成，PG2比0打败东方丽羽</li>
+							<li class='item'>【CFPL战报】生死局，游久2比0带走vivi</li>
+						</ul>
+					</div>
+					<div class='gllist'>
+						<div class='leftpic'><img src="http://shp.qpic.cn/cfwebcap/2567788430/54e55773fd40e52bf576f31c56f2f292/0/" alt=""></div>
+						<ul>
+							<div class='lijc'><li>江山代有才人出 S11常规赛赛场上的闪耀5</li></div>
+							<li class='item'>CFPL10.8综述惊天逆袭 游久携手PG成功保级</li>
+							<li class='item'>【CFPL综述】保级赛尘埃落定 游久PG晋级八强</li>
+							<li class='item'>【CFPL战报】功败垂成，PG2比0打败东方丽羽</li>
+							<li class='item'>【CFPL战报】生死局，游久2比0带走vivi</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="match">
+				<h3><em>电竞赛事</em></h3>
+				<div class="mc">
+					<ul class="mcul">
+						<li>CFPL</li>
+						<li>超新星行动</li>
+						<li>CFS</li>
+						<li>CFGI</li>
+						<li>百城联赛</li>
+						<li>TGA</li>
+					</ul>
+					<div class='gllists' id="gllista">
+						<div class='leftpic'><img src="http://ossweb-img.qq.com/images/cf/web201412/match/cfpl.jpg" alt=""></div>
+						<ul>
+							<div class='lijcs'><li>2017职业联赛 秋季赛（CFPL S11）</li></div>
+							<li class='items'>CFPL10.8综述惊天逆袭 游久携手PG成功保级</li>
+							<li class='items'>【CFPL综述】保级赛尘埃落定 游久PG晋级八强</li>
+							<li class='items'>【CFPL战报】功败垂成，PG2比0打败东方丽羽</li>
+							<li class='items'>【CFPL战报】生死局，游久2比0带走vivi</li>
+						</ul>
+					</div>
+					<div class='gllists'>
+						<div class='leftpic'><img src="http://ossweb-img.qq.com/images/cf/web201412/match/star.jpg" alt=""></div>
+						<ul>
+							<div class='lijcs'><li>打爆破，靠“骂”才能赢吗？</li></div>
+							<li class='items'>福利集中营——9月一锤定音</li>
+							<li class='items'>火线剧组——《敢死队2》中的CF名枪</li>
+							<li class='items'>福利集中营——加特林神枪节</li>
+							<li class='items'>难以窥测的沙之秘境，谁能主宰沉浮(1)</li>
+						</ul>
+					</div>
+					<div class='gllists'>
+						<div class='leftpic'><img src="http://ossweb-img.qq.com/images/cf/web201412/match/cfs.jpg" alt=""></div>
+						<ul>
+							<div class='lijcs'><li>江山代有才人出 S11常规赛赛场上的闪耀</li></div>
+							<li class='items'>CFPL10.8综述惊天逆袭 游久携手PG成功保级</li>
+							<li class='items'>【CFPL综述】保级赛尘埃落定 游久PG晋级八强</li>
+							<li class='items'>【CFPL战报】功败垂成，PG2比0打败东方丽羽</li>
+							<li class='items'>【CFPL战报】生死局，游久2比0带走vivi</li>
+						</ul>
+					</div>
+					<div class='gllists'>
+						<div class='leftpic'><img src="http://ossweb-img.qq.com/images/cf/web201412/match/cfgi.jpg" alt=""></div>
+						<ul>
+							<div class='lijcs'><li>原CF白鲨俱乐部成员表示：白鲨一直是大哥</li></div>
+							<li class='items'>念旧兴趣爱好大公开，除了CF他还爱这个</li>
+							<li class='items'>CF马哲最爱食物揭秘火锅or烧烤哪个才是最爱？</li>
+							<li class='items'>腾讯游戏家盛典来袭！百万粉丝力鼎CF白鲨</li>
+							<li class='items'>职业选手亦如常人，曝CF马哲国庆假期陪家人</li>
+						</ul>
+					</div>
+					<div class='gllists'>
+						<div class='leftpic'><img src="http://ossweb-img.qq.com/images/cf/web201412/match/bcls.jpg" alt=""></div>
+						<ul>
+							<div class='lijcs'><li>江山代有才人出 S11常规赛赛场上的闪耀4</li></div>
+							<li class='items'>CFPL10.8综述惊天逆袭 游久携手PG成功保级</li>
+							<li class='items'>【CFPL综述】保级赛尘埃落定 游久PG晋级八强</li>
+							<li class='items'>【CFPL战报】功败垂成，PG2比0打败东方丽羽</li>
+							<li class='items'>【CFPL战报】生死局，游久2比0带走vivi</li>
+						</ul>
+					</div>
+					<div class='gllists'>
+						<div class='leftpic'><img src="http://ossweb-img.qq.com/images/cf/web201412/match/tga.jpg" alt=""></div>
+						<ul>
+							<div class='lijcs'><li>江山代有才人出 S11常规赛赛场上的闪耀5</li></div>
+							<li class='items'>CFPL10.8综述惊天逆袭 游久携手PG成功保级</li>
+							<li class='items'>【CFPL综述】保级赛尘埃落定 游久PG晋级八强</li>
+							<li class='items'>【CFPL战报】功败垂成，PG2比0打败东方丽羽</li>
+							<li class='items'>【CFPL战报】生死局，游久2比0带走vivi</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="aside">
+          <div class="hd-list">
+            <ul>
+              <li class="f1">
+                <a href="" title='活动中心'><span class="span1"></span></a>
+                <a href="" title='直播中心'><span class="span2"></span></a>
+                <a href="" title='账户充值'><span class="span3"></span></a>
+              </li>
+              <li class="f2">
+                <a href="" title='下载游戏' id="tongshang"><span class="span4"></span></a>
+                <a href="" title='视频中心' class="xiao"><span class="span5"></span></a>
+                <a href="" title='攻略中心' class="xiao"><span class="span6"></span></a>
+                <a href="" title='火线币系统' class="xiao"><span class="span7"></span></a>
+                <a href="" title='举报外挂' class="xiao"><span class="span8"></span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="quick">
+            <h3><em>快捷入口</em></h3>
+            <div class="quick-a">
+              <a href="" class="banner b1"><i></i><span>道聚城</span></a>
+              <a href="" class="banner b2"><i></i><span>战队系统</span></a>
+              <a href="" class="banner b3"><i></i><span>CF会员</span></a>
+              <a href="" class="banner b4"><i></i><span>心悦专区</span></a>
+              <a href="" class="banner b5"><i></i><span>CDK兑换</span></a>
+              <a href="" class="banner b6"><i></i><span>个人战绩</span></a>
+            </div>
+          </div>
+          <div class="teach">
+            <h3><em>教程及推广</em></h3>
+            <div class="teach-a">
+              <a href="" class="teachs a1"></a>
+              <a href="" class="teachs a2"></a>
+              <a href="" class="teachs a3"></a>
+            </div>
+          </div>
+          <div class="service">
+            <h3><em>客服专区</em></h3>
+            <div class="service-a">
+              <ul class="service-a-ul">
+                <li class="tab">自助服务</li>
+                <li class="tab">常见问题</li>
+              </ul>
+              <div class="question">
+                <ul class="question1">
+                  <li>自助申诉找回战队资料</li>
+                  <li>自助点亮升级游戏图片</li>
+                  <li>自助查询全服角色</li>
+                  <li>误充值操作申诉处理</li>
+                  <li>自助查询当前游戏帐号状态</li>
+                  <li>查询游戏中充值记录</li>
+                  <li>全新安全专题站上线，诚邀体验！</li>
+                </ul>
+                <ul>
+                  <li>未成年玩家在超过18岁以后，系统会自动将其转出防沉迷系统吗？
+                  </li>
+                  <li>在《穿越火线》中如何进行游戏呢？</li>
+                  <li>什么是CF点？</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="guanggao">
+            <a href="" class="guang gao1"></a>
+            <a href="" class="guang gao2"></a>
+            <a href="" class="guang gao3"></a>
+          </div>
+        </div>
+		<div class="footers">
+			<div class="footersa">
+				本网络游戏适合年龄10周岁以上的用户使用，请您确定已如实进行实名注册，为了您的健康，请合理控制游戏时间。
+			</div>
+			<div class="footersb">
+			<p>
+				<span>抵制不良游戏</span>
+				<span>拒绝盗版游戏</span>  
+				<span>注意自我保护</span>
+				<span>谨防受骗上当</span>
+			</p>
+			<p>
+				<span>适度游戏益脑</span>
+				<span>沉迷游戏伤身</span>
+				<span>合理安排时间</span>
+				<span>享受健康生活</span>
+			</p>
+			</div>
+			<div class="input">
+				<span>穿越火线 </span><span>官方合作媒体</span><span class="jiantou"></span>
+			</div>
+			<ul class="inputul">
+				<li>17173</li>
+				<li>766</li>
+				<li>爱拍游戏</li>
+				<li>1T1T</li>
+				<li>52PK</li>
+				<li>太平洋游戏网</li>
+				<li>电玩巴士</li>
+				<li>U9</li>
+				<li>131游戏之家</li>
+				<li>CF</li>
+				<li>DNF</li>
+				<li>射击游戏天堂</li>
+				<li>dota</li>
+			</ul>
+		</div>
+      </div>
+    <div class="footer">
+    	<div class="text">
+	    	<div class="footerpic"></div>
+	    	<div class="footertext">
+	    		<p>腾讯互动娱乐|服务条款|广告服务|腾讯游戏招聘|腾讯游戏客服|腾讯游戏地图|腾讯游戏活动|商务合作|腾讯网|网站导航
+COPYRIGHT ©1998-2017 TENCENT. ALL RIGHTS RESERVED.
+COPYRIGHT ©Smilegate Entertainment. All rights reserved.
+腾讯公司版权所有
+文网游备字【2008】006号|出版物号：ISBN 978-7-900730-05-3|批准文号：新广出审[2008]714号|新出网证（粤）字010号|粤网文【2017】6138-1456号</p>
+	    	</div>
+	    </div>
+    </div>
+  </div>
+</body>
+<script>
+  var li = document.getElementsByClassName('tab');
+  var div = document.getElementsByClassName('question');
+  var ul = div[0].getElementsByTagName('ul');
+  for(let i=0;i<li.length;i++){
+    li[i].onmouseover = function () {
+      for(let j=0;j<li.length;j++){
+        ul[j].className = ''
+      }
+      ul[i].className = 'question1'
+    }
+  }
+  var inputul = document.getElementsByClassName('inputul');
+  var input = document.getElementsByClassName('input');
+  input[0].onmouseover = function () {
+  	inputul[0].style.display = 'block'
+  }
+  inputul[0].onmouseleave = function () {
+  	inputul[0].style.display = 'none'
+  }
+  var videoul = document.getElementsByClassName('videoul');
+  var videoli = videoul[0].getElementsByTagName('li');
+  var videolist = document.getElementsByClassName('videolist');
+  var videolistul = videolist[0].getElementsByTagName('ul');
+  for(let i=0;i<videoli.length;i++){
+  	videoli[0].style.borderBottom='3px solid #f96515'
+  	videoli[i].onmouseover = function () {
+  		for(let j=0;j<videoli.length;j++){
+  			videolistul[j].className = '';
+  			videoli[j].style.borderBottom=''
+  		}
+  		videolistul[i].className = 'active';
+  		videoli[i].style.borderBottom='3px solid #f96515'
+  	}
+  }
+  var newslist = document.getElementsByClassName('newslist');
+  var newslistul = newslist[0].getElementsByTagName('ul');
+  var newsaul = document.getElementsByClassName('newsaul');
+  var newsaulli  = newsaul[0].getElementsByTagName('li');
+  for(let i=0;i<newslistul.length;i++){
+  	newsaulli[0].style.borderBottom='3px solid #f96515'
+  	newsaulli[i].onmouseover = function () {
+  		for(let j=0;j<newsaulli.length;j++){
+  			newslistul[j].className = '';
+  			newsaulli[j].style.borderBottom=''
+  		}
+  		newslistul[i].className = 'active-a';
+  		newsaulli[i].style.borderBottom='3px solid #f96515'
+  	}
+  }
+  var glul = document.getElementsByClassName('glul');
+  var glulli = glul[0].getElementsByTagName('li');
+  var gllist =document.getElementsByClassName('gllist');
+  for(let i=0;i<glulli.length;i++){
+  	glulli[0].style.borderBottom='3px solid #f96515'
+  	glulli[i].onmouseover =function () {
+  		for(let j=0;j<glulli.length;j++){
+  			gllist[j].setAttribute('id','');
+  			glulli[j].style.borderBottom=''
+  		}
+  		gllist[i].setAttribute('id','gllista');
+  		this.style.borderBottom='3px solid #f96515'
+  	}
+  }
+  var mcul = document.getElementsByClassName('mcul');
+  var mculli = mcul[0].getElementsByTagName('li');
+  var gllists =document.getElementsByClassName('gllists');
+  for(let i=0;i<glulli.length;i++){
+  	mculli[0].style.borderBottom='3px solid #f96515'
+  	mculli[i].onmouseover =function () {
+  		for(let j=0;j<glulli.length;j++){
+  			gllists[j].setAttribute('id','');
+  			mculli[j].style.borderBottom=''
+  		}
+  		gllists[i].setAttribute('id','gllistas');
+  		this.style.borderBottom='3px solid #f96515'
+  	}
+  }
+  var index = 0; 
+  var arr = new Array();
+  var pmbul = document.getElementsByClassName('pm-b-ul');
+  var pmli = pmbul[0].getElementsByTagName('li');
+  pmli[0].style.borderTop='5px solid #f96515'
+  arr[0] = "http://ossweb-img.qq.com/upload/adw/image/1506073354/1506073354.jpg?_r=1507629945455"; 
+  arr[1] = "http://ossweb-img.qq.com/images/clientpop/idata_ad/10153995/0643733167c4beaa2f9692ea11053414.jpg?_r=1507629945455"; 
+  arr[2] = "http://ossweb-img.qq.com/images/clientpop/idata_ad/10151469/e0a894ff6155868ae7edb2fa61abcf0a.jpg?_r=1507629945455"; 
+  arr[3] = "http://ossweb-img.qq.com/upload/adw/image/1507558234/1507558234.jpg?_r=1507629945455"; 
+  arr[4] = "http://ossweb-img.qq.com/upload/adw/image/1506880956/1506880956.jpg?_r=1507629945455"; 
+  arr[5] = "http://ossweb-img.qq.com/upload/adw/image/1506882095/1506882095.jpg?_r=1507629945455"; 
+  setInterval(changeImg,2000); 
+  function changeImg() { 
+   var pm =document.getElementById('pm-t-ul');
+   if (index == arr.length-1) { 
+    index = 0; 
+   } else { 
+    index += 1; 
+     } 
+   pm.src = arr[index];
+	  for(let i=0;i<pmli.length;i++){
+	  	 pmli[i].style.borderTop=''
+	  }
+   pmli[index].style.borderTop='5px solid #f96515'
+  } 
+  	// setInterval('action()',1000);
+  	function action() {
+ 		pm.style.left = '-700px';
+ 		
+  	}
+  	var logo2 = document.getElementsByClassName('logo2');
+  	var logopic = document.getElementById('logopic');
+  	logo2[0].onmouseover = function () {
+  		logopic.style.display = 'block'
+  	}
+  	logopic.onmouseleave = function () {
+  		logopic.style.display = 'none'
+  	}
+</script>
+</html>
