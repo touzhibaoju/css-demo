@@ -1,0 +1,310 @@
+body,html {
+	height: 100%;font-size: 14px;
+}
+* {
+	padding: 0px;margin: 0px;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;display: inline-block;color: black;
+}
+.mid {
+	margin: 0 auto;max-width: 1200px;position: relative;
+}
+.ft {
+	float: left;
+}
+.icon {
+	background: url(https://y.gtimg.cn/mediastyle/yqq/img/icon_sprite.png?max_age=2592000&v=f36b659bcb28cf9d0a0ef861a7c4a17d) no-repeat;
+}
+.song-icon {
+	background: url(https://y.gtimg.cn/mediastyle/yqq/img/index_tit.png?max_age=2592000&v=c7310a1eb12fc9fce032314be79ad579) no-repeat;
+}
+.download-icon {
+	background: url(https://y.gtimg.cn/mediastyle/yqq/img/footer.png?max_age=2592000&v=2c8fc360fec8704d735687beb9098d2d) no-repeat;
+}
+/*公用图标*/
+.header {
+	min-width: 1000px;
+}
+.header .qqlogo {
+	margin-top: 20px; 
+}
+.header .qqtab li a {
+	height: 90px;padding: 0 20px;font-size: 18px;line-height: 90px;
+}
+.header .bottom-tab {
+	clear: both;height: 51px;border-top: 1px solid #f2f2f2;padding-left: 230px; 
+}
+.header .bottom-tab li a {
+	height: 51px;line-height: 51px;margin-right: 30px;color: #333;font-size: 15px;
+}
+/*header上下2个栏*/
+
+.header .mid .search {
+	position: absolute;top: 0px;right: 285px;margin-top: 24px; 
+}
+.header .mid .search .search-r {
+	position: relative;border: 1px solid #c9c9c9;padding: 0px 30px 0px 10px;
+}
+.header .mid .search .search-input {
+	width: 174px;height: 36px;border: 0px;background: none;outline: none;
+}
+.header .mid .search .search-bt {
+	width: 38px;height: 34px;position: absolute;right: 0px;top: 0px;border: 0px;background: white;
+}
+.header .mid .search .search-bt i {
+	width: 16px;height: 16px;background-position: 0px -40px;position: absolute;right: 10px;top: 9px;
+}
+/*搜索框*/
+.header .mid .pay {
+	position: absolute;right: 0px;height: 90px;
+}
+.header .mid .pay a {
+	margin-top: 24px;font-size: 13px;
+}
+.header .mid .pay .pay-login {
+	font-size: 15px;margin-right: 10px;
+} 
+.header .mid .pay .pay-lv {
+	padding: 10px;background: #31c27c;border-radius: 3px;color: white;
+}
+.header .mid .pay .pay-bao {
+	border: 1px solid lightgrey;padding: 10px;
+}
+/*最右上角那3个按钮*/
+.music {
+	background: url(https://y.gtimg.cn/mediastyle/yqq/img/bg_detail.jpg) no-repeat;min-width: 1000px;
+}
+.music .mid .index-hd {
+	padding-top: 4%;padding-bottom: 2%;
+}
+.music .mid .index-hd .index-txt {
+	width: 196px;height: 40px;margin: 0 auto;
+}
+.music .mid .index-tab {
+	height: 50px;text-align: center;
+}
+.music .mid .index-tab .index-tab-a {
+	padding: 0 20px;font-size: 15px;color: #333;
+}
+.music .mid .playlist .playlist-ul .playlist-item {
+	width: 20%;padding-right: 20px;box-sizing: border-box;margin-bottom: 20px; 
+}
+.music .mid .playlist .playlist-ul .playlist-item .playlist-itema {
+	margin-bottom: 15px; 
+}
+.music .mid .playlist .playlist-ul .playlist-item .playlist-title {
+	padding-bottom: 5px; 
+}
+.music .mid .playlist .playlist-ul .playlist-item .playlist-m {
+	color: #999;
+}
+.music .mid .playlist .playlist-ul .playlist-item .playlist-itema img {
+	width: 100%;
+}
+.music .mid .switch {
+	clear: both;text-align: center;padding-top: 20px; 
+}
+.music .mid .switch .switch-btn {
+	display: inline-block;width: 28px;height: 12px;padding: 0 0 26px;
+}
+.music .mid .switch .switch-btn i {
+	width: 8px;height: 8px;display: inline-block;background: gray;border-radius: 12px;
+}
+/*歌单推荐*/
+.music .mid .recommend {
+	background-position: 0 -48px
+}
+.music .mid .player-btn {
+	position: absolute;top: 100px;left: 0px;height: 30px;border-radius: 2px;border: 1px solid lightgrey;
+	padding: 0px 30px;line-height: 30px;
+}
+.music .mid .player-btn i {
+	width: 13px;height: 17px;background-position: -60px -220px;display: inline-block;vertical-align: middle;
+	margin-right: 5px; 
+}
+.music .mid .newsong-item {
+	border-bottom: 1px solid #ccc
+}
+.music .mid .newsong-item {
+	width: 33.3333%; 
+}
+
+.music .mid .newsong-item .newsong-itembox {
+	margin: 0px 30px 15px 0px;padding-top: 15px;height: 86px;position: relative;
+}
+.music .mid .newsong-item .newsong-itembox .item-pic {
+	width: 86px;height: 86px;margin-right: 15px; 
+}
+.music .mid .newsong-item .newsong-itembox .item-pic img {
+	width: 100%;
+}
+.music .mid .newsong-item .newsong-itembox .newsong-item-mes {
+	padding-top: 21px
+}
+.music .mid .newsong-item .newsong-itembox .newsong-item-mes .item-mes-name{
+	color: #999;padding-top: 5px; 
+}
+.music .mid .newsong-item .newsong-itembox .newsong-item-time {
+	position: absolute;right: 0px;top: 0px;line-height: 86px;
+}
+/*新歌首发*/
+.music .mid .perfect {
+	background-position: 0 -98px
+}
+.music .mid .listpic {
+	width: 50%;
+}
+.music .mid .listpic a {
+	padding-right: 20px;box-sizing: border-box;
+}
+.music .mid .listpic a img {
+	width: 100%;
+}
+/*精彩推荐*/
+.music .mid .the-first {
+	background-position: 0 -144px
+}
+.music .mid .toplist {
+	background-position: 0 -198px;
+}
+.music .mid .mod-toplist .toplist-item {
+	width: 20%;float: left;padding-right: 20px;box-sizing: border-box;
+}
+.music .mid .mod-toplist .item-box {
+	height: 500px;position: relative;background: url(https://y.gtimg.cn/mediastyle/yqq/img/bg_index_top.jpg?max_age=2592000&v=3beef369200a0863560787fd560c8205) no-repeat;
+}
+.music .mid .mod-toplist .toplist-item .item2 {
+	background-position: -224px 0 
+}
+.music .mid .mod-toplist .toplist-item .item3 {
+	background-position: -448px 0 
+}
+.music .mid .mod-toplist .toplist-item .item4 {
+	background-position: -672px 0 
+}
+.music .mid .mod-toplist .toplist-item .item5 {
+	background-position: -896px 0 
+}
+.music .mid .mod-toplist .item-box .item-song-box {
+	position: absolute;top: 188px;width: 200px;left: 15%;
+}
+.music .mid .mod-toplist .item-box .item-song-box .item-song {
+	padding-left: 15px;margin-bottom: 27px;position: relative;color: white
+}
+.music .mid .mod-toplist .item-box .item-song-box .item-song .item-num {
+	position: absolute;top: 0px;left: 0px;
+}
+.music .mid .mod-toplist .item-box .toplist-name {
+	position: absolute;top: 50px;width: 200px;text-align: center;left: 5%;
+}
+.music .mid .mod-toplist .item-box .toplist-name a {
+	height: 36px;font-size: 26px;color: white
+}
+.music .mid .mod-toplist .item-box .item-song .item-song-name {
+	margin-bottom: 5px; 
+}
+.item-song-name a,.item-song-singer a{
+	color: white
+}
+/*排行榜*/
+.music .mid .mv {
+	background-position: 0 -244px 
+}
+.music .mid .mvlist .mv-item {
+	width: 20%;margin-bottom: 20px;
+}
+.music .mid .mvlist .mv-item .mv-a {
+	width: 100%;height: 100%;padding-right: 20px;box-sizing: border-box;
+}
+.music .mid .mvlist .mv-item .mv-a img {
+	width: 100%
+}
+.music .mid .mvlist .mv-item .mv-name {
+	display: block;padding-top: 10px;
+}
+.music .mid .mvlist .mv-item .mv-singer {
+	color: #999
+}
+.music .mid .mvlist .mv-item .bfl {
+	color: #999;
+}
+.music .mid .mvlist .mv-item .bfl i {
+	display: inline-block;width: 19px;height: 12px;background-position: -180px -20px;padding-right: 5px; 
+}
+/*mv*/
+.footer {
+	background: #333;color: #999
+}
+.footer .footer-info {
+	padding-bottom: 45px;position: relative;min-width: 1000px;
+}
+.footer .footer-info .footers {
+	padding-right: 20px; width: 33.333%;box-sizing: border-box;
+}
+.footer .footer-info .footers h3 {
+	padding:100px 0px 30px;
+}
+.footer .footer-info .footers .download-logo .logo-item {
+	text-align: center;
+}
+.footer .footer-info .footers .download-logo .logo-item a {
+	color: #999 
+}
+.footer .footer-info .footers .download-logo .logo-item i {
+	display: block;margin: 0 29px 12px;
+}
+.footer .footer-info .footers .download-logo .logo-item .pc {
+	background-position: -2px 0;width: 37px;height: 48px;
+}
+.footer .footer-info .footers .download-logo .logo-item .mac {
+	background-position: -92px 0;width: 46px;height: 48px;
+}
+.footer .footer-info .footers .download-logo .logo-item .android {
+	background-position: -190px 0;width: 37px;height: 48px;
+}
+.footer .footer-info .footers .download-logo .logo-item .iphone {
+	background-position: -277px 0;width: 37px;height: 48px;
+}
+.footer .footer-info .footers .download-logo .logo-item .kge {
+	background-position: -366px 0;width: 46px;height: 48px;
+}
+.footer .footer-info .footers .download-logo .logo-item .sup {
+	background-position: -462px 0;width: 37px;height: 48px;
+}
+.footer .footer-info .footers .download-logo .logo-item .qplay {
+	background-position: -562px 0;width: 46px;height: 48px;
+}
+.footer .footer-info .footers .download-logo .logo-item span {
+	margin: 10px 25px 0px;display: inline-block;
+}
+.footer .mid .footer-bottom {
+	padding: 10px 0;clear: both;
+}
+.footer .footer-info .footer-link .link-item {
+	width: 33.333%;margin-bottom: 10px; 
+}
+.footer .footer-info .footer-link .link-item a {
+	color: #999
+}
+.footer .footer-info .footer-platform {
+	clear: both;
+}
+.footer .footer-info .footer-platform h3 {
+	padding: 60px 0px 10px 0px;
+}
+.footer .footer-info .footer-platform ul li {
+	margin-right: 40px;
+}
+.footer .footer-bottom {
+	text-align: center;
+}
+.footer .footer-bottom .bottom-nav a{
+	color: #999
+}
+.footer .footer-bottom p{
+	clear: both
+}

@@ -1,3 +1,6 @@
+body {
+	background: #f5f5f5;
+}
 * {
 	margin: 0px;padding: 0px;box-sizing: border-box;
 }
@@ -9,9 +12,6 @@ a {
 }
 li {
 	list-style: none;
-}
-.bg {
-	background: #f5f5f5;
 }
 /*全局属性*/
 
@@ -31,7 +31,9 @@ li {
 	position: absolute;width: 24px;height: 24px;right: 0px;top: 10px;color:white;text-align:center;
 }
 /*头部标题*/
-
+.banner {
+	background: white;
+}
 .something {
 	height: 30px;color: #a4a4a4;font-size: 13px;
 }
@@ -56,7 +58,7 @@ li {
 	background: url(https://res.vmallres.com/20171011/images/echannel/icon-common.png) no-repeat;
 }
 .header {
-	height: 50px;margin: 10px 0px;
+	height: 60px;
 }
 .header .mid .header-left{
 	float: left;
@@ -77,13 +79,13 @@ li {
 	border-bottom: 1px solid #ddd;position: relative;
 }
 .header .mid .header-right .search #tj {
-	position: absolute;top: 10px;right: 50px
+	position: absolute;top: 10px;right: 50px;
 }
 .header .mid .header-right .search #tj a {
 	font-size: 12px;background: #f5f5f5;color: #a4a4a4;padding: 4px 4px 1px; float: left;margin-left: 10px; 
 }
 .header .mid .header-right .search #input-text {
-	width: 300px;height: 27px;border: 0px;
+	width: 300px;height: 27px;border: 0px;background: none;border: none;outline: none;
 }
 .header .mid .header-right .search .input-button {
 	width: 20px;height: 33px;border: 0px;background-position: -1px -16px;position: relative;top: 5px;
@@ -112,7 +114,6 @@ li {
 	color: #999;font-size: 14px;margin-right: 8px; 
 }
 /*商城横幅*/
-
 .menu .mid .menu-top .top-nav {
 	width: 1200px;height: 98px;border:1px solid #eaeaea;background: #fff
 }
