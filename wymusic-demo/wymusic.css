@@ -1,0 +1,312 @@
+body,html {
+	height: 100%;width: 100%;font-size: 12px;
+}
+* {
+	margin: 0px;padding: 0px;
+}
+a {
+	text-decoration: none;display: inline-block;
+}
+li {
+	list-style: none;
+}
+.warp {
+	width: 1100px;margin: 0 auto;
+}
+em {
+	font-style: normal;
+}
+/*全局*/
+
+.header-icon {
+	background: url(http://s2.music.126.net/style/web2/img/frame/topbar.png?58f31a9662fe1b3e5ef245541d8f69f7) no-repeat;
+}
+.other-icon {
+	background: url(http://s2.music.126.net/style/web2/img/index/index.png?74701d5701186d30ac84b11229c979b9) no-repeat;
+}
+.player-icon {
+	background: url(http://s2.music.126.net/style/web2/img/iconall.png?4eac5bda3960ac6cd23e2fd139963b3a) no-repeat;
+}
+.footer-icon {
+	background: url(http://s2.music.126.net/style/web2/img/foot_enter.png?22968dd4109a8889d6254e8d6e2fe894) no-repeat;
+}
+/*图片样式*/
+.header .h-top {
+	height: 70px;background: #242424;
+}
+.header .h-top .logo {
+	height: 69px;width: 176px;float: left;
+}
+.header .h-top .h-top-li {
+	float: left;position: relative;
+}
+.header .h-top .h-top-li a:hover {
+	background: #000;color: #fff
+}
+.header .h-top .h-top-li a {
+	height: 70px;line-height: 70px;color: #ccc;padding: 0px 19px;font-size: 14px;position: relative;
+}
+.header .h-top .h-top-li a sub {
+	background-position: -225px 1px ;width: 12px;height: 7px;display: inline-block;position: absolute;bottom: 0px;left: 50%;
+	margin-left: -6px;  
+}
+.header .h-top .h-top-li sup {
+	width: 28px;height: 19px;display: inline-block;position: absolute;background-position: -191px 0;
+	top: 17px;right: -12px 
+}
+.header .h-top .login {
+	float: right;margin: 20px 0 0 20px;padding: 0 22px 0 0;background-position: -194px -46px
+}
+.header .h-top .login a {
+	color: #787878;margin-top: 10px; 
+}
+.header .h-top .v-btn {
+	float: right;margin: 20px 0 0 20px;width: 95px;height: 35px;background-position: 0px -138px;
+	text-indent: 35px;line-height: 35px;color: #ccc
+}
+.header .h-top .v-btn:hover {
+	color: #fff;background-position: -100px -138px;
+}
+.header .h-top .search {
+	float: right;margin-top: 20px;width: 158px;height: 32px;border-radius: 32px;background: #fff; 
+	display: flex;align-items: center;
+}
+.header .h-top .search .search-btn {
+	width: 100px;height: 20px;border: none;
+	background: none;border: none;outline: none;text-indent: 10px;
+}
+.header .h-top .search i {
+	display: inline-block;width: 14px;height: 14px;padding-left: 10px;background-position: 0px -107px;
+}
+/*最上行导航*/
+.header .h-nav {
+	height: 35px;background: #C20C0C;
+}
+.header .h-nav .h-nav-ul {
+	padding-left: 180px;
+}
+.header .h-nav .h-nav-ul .h-nav-item {
+	float: left;
+}
+.header .h-nav .h-nav-ul .h-nav-item a {
+	padding: 0 20px;height: 35px;line-height: 35px;
+}
+.header .h-nav .h-nav-ul .h-nav-item a em {
+	padding: 2px 10px;color: #fff;
+}
+.header .h-nav .h-nav-ul .h-nav-item a em:hover {;background: url(http://s2.music.126.net/style/web2/img/index/download.png?59e8c5819f69bdd00a0d639e509f6e03);
+	background: #9B0909;border-radius: 20px;
+}
+/*header*/
+.banner {
+	background: url(http://p1.music.126.net/h6GzcEPnYDcX5zCdI_RpHQ==/18760966906829756.jpg);
+}
+.banner .warp{
+	height: 336px;width: 982px;position: relative;
+}
+.banner .download-client {
+	position: absolute;width: 254px;height: 336px;right: 0px;top: 0px;background: url(http://s2.music.126.net/style/web2/img/index/download.png?59e8c5819f69bdd00a0d639e509f6e03) no-repeat;
+}
+.banner .download-client a {
+	margin: 212px 0 0 19px;width: 215px;height: 56px;
+}
+.banner .download-client a:hover {
+	background: url(http://s2.music.126.net/style/web2/img/index/download.png?59e8c5819f69bdd00a0d639e509f6e03) 0 -340px;
+}
+.banner .download-client .download-text {
+	color: #8d8d8d;text-align: center;margin-top: 10px;
+}
+
+.container {
+	background: #f5f5f5;
+}
+.container .mid {
+	width: 982px;border: 1px solid #d3d3d3;margin: 0 auto;border-top: 0px; background: white;border-bottom: 0px;
+}
+.container .mid .margin-left {
+	margin-right: 251px;padding: 20px;border-right: 1px solid #d3d3d3;
+}
+.container .mid .margin-left .titlebar {
+	height: 33px;padding: 0 10px 0 34px;background-position: -222px -155px;border-bottom: 2px solid #C10D0C 
+}
+.container .mid .margin-left .titlebar .tit {
+	float: left;color: #333;font-size: 20px;height: 33px;line-height: 33px;
+}
+.container .mid .margin-left .titlebar .hot-tab {
+	float: left;padding-left: 20px;
+}
+.container .mid .margin-left .titlebar .hot-tab a {
+	height: 33px;line-height: 33px;color: #666;padding: 0 10px;position: relative;
+}
+.container .mid .margin-left .titlebar .hot-tab a:after {
+	content: '';
+	width: 1px;height: 12px;background: #666;position: absolute;top: 10px;right: 0px;
+}
+.container .mid .margin-left .titlebar .more {
+	float: right;margin-top: 9px; 
+}
+.container .mid .margin-left .titlebar .more a {
+	color: #666;
+}
+.container .mid .margin-left .titlebar .more i {
+	width: 12px;height: 12px;display: inline-block;background-position: 0 -240px;vertical-align: text-bottom; 
+}
+.container .mid .margin-left .musiclist {
+	margin-top: 20px;display: flex;justify-content: space-between;flex-wrap: wrap;
+}
+.container .mid .margin-left .musiclist .musiclist-item .music-btn {
+	position: relative;
+}
+.container .mid .margin-left .musiclist .musiclist-item .music-btn .btn-img{
+	width: 140px;height: 140px;border: 1px solid #ccc;
+}
+.container .mid .margin-left .musiclist .musiclist-item .music-btn img {
+	width: 100%;height: 100%;
+}
+.container .mid .margin-left .musiclist .musiclist-item {
+	padding-bottom: 50px;
+}
+.container .mid .margin-left .musiclist .musiclist-item .musicplayer {
+	width: 140px;height: 27px;position: absolute;bottom: 0px;display: flex;align-items: center;
+	background: url(http://s2.music.126.net/style/web2/img/coverall.png?f4dc9e2382c0b29299c21bf82273fed1) 0 -540px no-repeat;
+}
+.container .mid .margin-left .musiclist .musiclist-item .musicplayer a {
+	background-position: 0 0;width: 16px;height: 17px;margin-left: 50px;
+}
+.container .mid .margin-left .musiclist .musiclist-item .songname {
+	display: block;color: black;width: 140px;font-size: 14px;padding-top: 10px; 
+}
+.container .mid .margin-left .musiclist .musiclist-item .musicplayer .bk {
+	width: 14px;height: 11px;display: inline-block;background-position:  0 -24px;margin-left: 12px; 
+}
+.container .mid .margin-left .musiclist .musiclist-item .musicplayer .shuliang {
+	color: #ccc;margin: 5px;
+}
+/*热门推荐*/
+.main-mid {
+	margin-top: 20px; 
+}
+.main-mid .music-new {
+	margin:20px 0 30px 0;height: 186px;border: 1px solid #d3d3d3; padding: 0 40px 0 20px;background: #f5f5f5;position: relative;
+}
+.main-mid .music-new .new-list {
+	margin-top: 28px; display: flex;justify-content: space-between;
+}
+.main-mid .music-new .new-list .new-list-item a{
+	color: #999;
+}
+.main-mid .music-new .new-list .new-list-item .list-cover {
+	width: 100px;height: 100px;position: relative;
+}
+.main-mid .music-new .new-list .new-list-item .list-cover a {
+	position: absolute;left: 0px;top: 0px;width: 118px;height: 100px;
+	background: url(http://s2.music.126.net/style/web2/img/coverall.png?f4dc9e2382c0b29299c21bf82273fed1) 0px -571px no-repeat;
+}
+.main-mid .music-new .new-list .new-list-item .list-cover img {
+	width: 100%;height: 100%;
+}
+.main-mid .music-new .page-left {
+	width: 17px;height: 17px;background-position: -263px -74px;position: absolute;top: 71px;left: 3px;
+}
+.main-mid .music-new .page-right {
+	width: 17px;height: 17px;background-position: -301px -74px; position: absolute;top: 68px;right: 3px;
+}
+/*新碟上架*/
+.main-bottom .billboard {
+	margin-top: 20px;height: 472px;background: #f5f5f5;display: flex
+}
+.main-bottom .billboard .flag {
+	width: 230px;border-right: 1px solid lightgrey;
+}
+.main-bottom .billboard .flag .flag-tit {
+	padding: 20px 0 0 20px;height: 100px;
+}
+.main-bottom .billboard .flag .flag-tit .flag-tit-pic {
+	width: 80px;height: 80px;position: relative;float: left;
+}
+.main-bottom .billboard .flag .flag-tit .flag-tit-pic .flag-tit-btn{
+	position: absolute;top: 0px;left: 0px;height: 80px;width: 80px
+}
+.main-bottom .billboard .flag .flag-tit .flag-tit-pic img {
+	width: 100%;height: 100%;
+}
+.main-bottom .billboard .flag .flag-tit .flag-tit-text {
+	padding: 10px 0 0 10px;float: left;
+}
+.main-bottom .billboard .flag .flag-tit .flag-tit-text .flag-btn {
+	margin-top: 10px; 
+}
+.main-bottom .billboard .flag .flag-tit .flag-tit-text .flag-btn .flagplayer{
+	width: 22px;height: 22px;background-position: -267px -205px;margin-right: 10px; 
+}
+.main-bottom .billboard .flag .flag-tit .flag-tit-text .flag-btn .flagfile {
+	width: 22px;height: 22px;background-position: -299px -205px; 
+}
+.main-bottom .billboard .flag .flag-item .flag-item-list {
+	height: 32px;padding-left: 40px;
+}
+.main-bottom .billboard .flag .flag-item .flag-item-list span {
+	width: 35px;height: 32px;display: inline-block;float: left;text-align: center;vertical-align: middle;line-height: 32px;
+	font-size: 15px;
+}
+.main-bottom .billboard .flag .flag-item .flag-item-list .flag-item-songname {
+	height: 32px;line-height: 32px;color: #000;
+}
+.main-bottom .billboard .flag .flag-item .flag-item-list:nth-child(odd) {
+	background: #eee;
+}
+.main-bottom .billboard .flag .flag-item .lookall {
+	background: #eee;height: 32px;
+}
+.main-bottom .billboard .flag .flag-item .lookall a {
+	float: right;height: 32px;line-height: 32px;color: #000;margin-right: 30px; 
+}
+/*榜单*/
+.footer {
+	background: #f5f5f5;height: 140px;border: 1px solid #d3d3d3;
+}
+.footer .footer-box {
+	margin: 0 auto;width: 982px;
+}
+.footer .footer-box .footer-left {
+	padding-top: 50px;float: left; 
+}
+.footer .footer-box .footer-left .footer-ifo a {
+	color: #999
+}
+.footer .footer-box .footer-left .footer-ifo span {
+	padding: 0 5px;color: #999
+}
+.footer .footer-box .footer-left .footer-ifo p {
+	margin-top: 10px; 
+}
+.footer .footer-box .footer-right {
+	float: right;width: 330px;margin-top: 20px; display: flex;justify-content: space-between;
+}
+.footer .footer-box .footer-right a {
+	width: 60px;height: 70px;
+}
+.footer .footer-box .footer-right .f1 {
+	background-position: -60px -80px; 
+}
+.footer .footer-box .footer-right .f2 {
+	background-position: -60px 0px; 
+}
+.footer .footer-box .footer-right .f3 {
+	background-position: 0px 0px; 
+}
+.footer .footer-box .footer-right .f4 {
+	background-position: -60px 0px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
