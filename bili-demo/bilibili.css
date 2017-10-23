@@ -1,0 +1,241 @@
+body,html {
+	width: 100%;height: 100%;font-size: 12px
+}
+* {
+	margin: 0px;padding: 0px;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;display: inline-block;
+}
+i {
+	font-style: normal;
+}
+.ft {
+	float: left;
+}
+.mid {
+	width: 1160px;margin: 0 auto
+}
+.mid-center {
+	width: 900px;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.icon {
+	background: url(http://static.hdslb.com/images/base/icons.png) no-repeat;
+}
+
+.header {
+	background: url(https://i0.hdslb.com/bfs/archive/5d54c71eddc9f5229414369bba59eb7e552ef588.png) center no-repeat;
+	height: 170px;position: relative;
+}
+.header .header-top .header-x{
+	height: 42px;background: #fff;opacity: 0.4;position: absolute;top: 0px;left: 0px;width: 100%;
+}
+.header .header-top .header-left {
+	position: relative;
+}
+.header .header-top .header-left li:nth-child(1) {
+	padding-left: 15px;background-position: -919px -73px;
+}
+.header .header-top .header-left li:nth-child(2) {
+	background-position: -824px -403px;padding-right: 10px; 
+}
+.header .header-top li a {
+	height: 42px;padding: 0 10px;color: #222222;line-height: 42px;
+}
+.header .header-top .header-right {
+	float: right;position: relative;
+}
+.header .header-top .header-right .touxiang {
+	width: 36px;height: 36px;margin-top: 3px; 
+}
+.header .header-top .header-right .touxiang img {
+	width: 100%;height: 100%;border-radius: 18px;
+}
+.header .header-top .header-right li:nth-child(2) {
+	position: relative;
+}
+.header .header-top .header-right li .mes {
+	width: 12px;height: 12px;background: #f25d8e;display: inline-block;position: absolute;top: 5px;right: 0px;
+	border-radius: 10px;padding: 1px 2px;line-height: 12px; color: white;text-align: center;
+}
+.header .header-top .header-right li:last-child {
+	background: #f25d8e;height: 52px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px; 
+}
+.header .header-top .header-right li .tougao {
+	width: 58px;box-sizing: border-box;text-align: center;color: white;font-size: 16px;
+}
+.header .header-top .header-right li .tougaoi {
+	position: absolute;top: 10px;
+	width: 53px;height: 42px;display: inline-block;background: url(http://static.hdslb.com/images/base/up-new-iocn.png) no-repeat;
+}
+.header .header-bottom .mid {
+	position: relative;
+}
+.header .header-bottom .search {
+	position: absolute;bottom: 20px;right: 0px;background: rgba(0, 0, 0, 0.12);padding: 2px;border-radius: 8px; 
+}
+.header .header-bottom .search a span{
+	padding-left: 32px;height: 32px;line-height: 32px;background-position: -659px -655px;color: #f25d8e;
+	display: inline-block;
+}
+.header .header-bottom .search a {
+	background: rgba(255, 255, 255, 0.88);width: 78px;border-radius: 4px;
+}
+.header .header-bottom .search form {
+	height: 32px;background: rgba(255, 255, 255, 0.88);border-radius: 4px;margin-left: 2px; 
+}
+.header .header-bottom .search .search-text {
+	width: 200px;margin-top: 7px;border: 0px;background:transparent;outline: none;text-indent: 10px;color: grey
+}
+.header .header-bottom .search button {
+	width: 48px;height: 32px;background-position: -653px -721px;border: 0px;outline: none;cursor: pointer;
+}
+
+
+.menu-nav {
+	padding-top: 10px;padding-bottom: 40px;
+}
+.menu-nav .mid .nav-list li {
+	text-align: center;margin-right: 10px;
+}
+.menu-nav .mid .nav-list li a {
+	width: 48px;
+}
+.menu-nav .mid .nav-list li .home{
+	padding-top: 20px;background-position: -649px -1175px;
+}
+.menu-nav .mid .nav-list li .num-box {
+	padding-top: 3px;
+}
+.menu-nav .mid .nav-list li .num {
+	padding: 0px 1px;background: #ffafc9;border-radius: 3px;display: inline-block;height: 12px;line-height: 12px;color: white;
+}
+.menu-nav .mid .nav-list li span {
+	color: #222;
+}
+.menu-nav .mid .nav-list li .nav-item {
+	padding-top: 18px;width: 40px;
+}
+.menu-nav .mid .nav-list li .item1 {
+	background-position: -76px -1816px
+}
+.menu-nav .mid .nav-list li .item2 {
+	background-position: -76px -2008px
+}
+.menu-nav .mid .nav-list li .item3 {
+	background-position: -76px -1880px
+}
+.menu-nav .mid .nav-list li .item4 {
+	background-position: -76px -1943px
+}
+
+.menu-nav .recommend {
+	padding-bottom: 40px;margin-top: 20px; 
+}
+.menu-nav .recommend .m-box {
+	width: 440px;height: 220px;
+}
+.menu-nav .recommend .m-box a .m-box-pic{
+	width: 100%;height: 100%;
+}
+.menu-nav .recommend .ml-box {
+	width: 720px;height: 220px;
+}
+.menu-nav .recommend .ml-box ul {
+	width: 100%;height: 100%;display: flex;justify-content: space-between;flex-wrap: wrap; 
+}
+.menu-nav .recommend .ml-box ul li {
+	padding: 0 0 20px 20px;width: 25%;font-size: 0px;box-sizing: border-box;
+}
+.menu-nav .recommend .ml-box ul li img{
+	width: 100%;
+}
+.menu-nav .recommend .ml-box ul li a {
+	position: relative;
+}
+.menu-nav .recommend .ml-box ul li p {
+	text-align: center;
+	height: 20px;position: absolute;top: 78px;font-size: 14px;overflow: hidden;color: #fff
+}
+
+.extend {
+	padding-bottom: 10px;
+}
+.r-con {
+	float: right;width: 260px;
+}
+.extend .r-con .online {
+	padding: 0 5px;background: #e5e9ef;height: 34px;line-height: 34px;border-radius: 5px;color: grey
+}
+.extend .r-con .online a{
+	color: #6d757a
+}
+.extend .r-con .adpos {
+	margin-top: 10px;
+}
+.head-title {
+	padding-bottom: 10px;
+}
+.head-title .head-title-icon {
+	display: inline-block;width: 40px;height: 40px;margin-right: 10px;
+}
+.extend .extend-title {
+	background-position: -139px -78px;
+}
+.head-title .head-title-text {
+	font-size: 24px;
+}
+.extend .storey-box ul {
+	display: flex;justify-content: space-between;padding-right: 20px; 
+}
+.extend .storey-box ul li p{
+	width: 160px;color: #222222;padding-top: 7px;
+}
+.advert {
+	padding: 10px 0; 
+}
+
+
+.live .live-title {
+	background-position: -139px -654px;
+}
+.r-con .r-con-tab a {
+	height: 24px;line-height: 24px;color: #222222;margin-left: 10px;padding-top: 15px;border-bottom: 1px solid transparent; 
+}
+.r-con .r-con-tab a:hover {
+	border-color: #00a1d6;color: #00a1d6
+}
+.mid .mid-center .list {
+	
+}
+.mid .mid-center .list ul {
+	display: flex;justify-content: space-between;flex-wrap: wrap;
+}
+.mid .mid-center .list ul li {
+	margin-bottom: 20px;
+}
+.mid .mid-center .list ul li .list-text {
+	width: 160px;overflow: hidden;height: 18px;padding-top: 5px;
+}
+.mid .mid-center .list ul li span {
+	width: 80px;height: 15px;text-indent: 20px;
+}
+.mid .mid-center .list ul li .name {
+	background-position: -282px -151px;
+}
+.mid .mid-center .list ul li .looknum {
+	background: url(https://s1.hdslb.com/bfs/static/webssr/home/images/live-eye.png) 0 3px no-repeat;
+}
+
+.donghua-title {
+	background-position: -139px -717px;
+}
