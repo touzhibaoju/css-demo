@@ -1,0 +1,46 @@
+body,html {
+	width: 100%;height: 100%
+}
+* {
+	margin: 0px;padding: 0px;
+}
+a {
+	display: inline-block;text-decoration: none;
+}
+
+.container {
+	width: 100%;height: 100%;background: #75c8f2;display: flex;justify-content: center;align-items: center;
+}
+.container .box {
+	display: flex;justify-content: center;align-items: flex-start;
+	width: 1000px;height: 650px;background: url(https://s-xue.hfjy.com/v3/teacher/images/login_bg.jpg) center center no-repeat; 
+}
+.container .box .form-box {
+	padding: 30px;background: #f6f9fb;border-radius: 4px;margin-top: 230px;
+}
+.container .box .form-box .login-form {
+	width: 300px;
+}
+.container .box .form-box .login-form .loginbtn-box {
+	width: 100%;border: 1px solid #dfe1e8;border-radius: 3px; 
+}
+.container .box .form-box .loginbtn {
+	padding: 1em .8em;width: 100%;box-sizing: border-box;border: 0px;background: #fff;
+	outline: none;border-radius: 3px; 
+}
+.container .box .form-box .login-form .loginbtn-box .password {
+	border-top: 1px solid #dfe1e8
+}
+.container .box .form-box .login-form .login-button {
+	line-height: 40px;width: 100%;background: #00a0e9;margin: 15px 0;border-radius: 3px;
+	text-align: center;color: #fff;
+}
+.container .box .form-box .login-form .login-bottom {
+	display: flex;justify-content: space-between;font-size: 14px;color: #8899aa
+}
+.container .box .form-box .login-form .login-bottom .checkbox-btn {
+	vertical-align: middle;width: 14px;height: 14px;
+}
+.container .box .form-box .login-form .login-bottom .forget-btn {
+	color: #8899aa
+}

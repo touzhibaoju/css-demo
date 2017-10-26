@@ -1,0 +1,136 @@
+body,html {
+	width: 100%;height: 100%;font-size: 14px;
+}
+* {
+	margin: 0px;padding: 0px;
+}
+a {
+	display: inline-block;text-decoration: none;
+}
+li {
+	list-style: none;
+}
+i {
+	font-style: normal;
+}
+
+.container {
+	width: 100%;height: 100%;
+	display: flex;flex-direction: column;
+}
+.container .header {
+	padding: 10px 20px;background: #00a0e9;box-sizing: border-box;height: 50px;
+	display: flex;justify-content: space-between;
+}
+.container .header .logo {
+	width: 150px;height: 30px;background: url(https://s-xue.hfjy.com/v3/teacher/images/logo.png) no-repeat;
+	display: flex;justify-content: flex-end;align-items: flex-end;
+}
+.container .header .logo .teacher-logo {
+	width: 64px;height: 16px;
+}
+.container .header .icon-btn {
+	display: flex;justify-content: space-between;align-items: flex-end;opacity: 0.8
+}
+.container .header .icon-btn li {
+	margin-right: 10px;vertical-align: text-bottom;
+}
+.container .header .icon-btn li a {
+	padding: 0 5px;
+}
+.container .header .icon-btn li span {
+	font-size: 21px;color: rgba(35, 35, 35, 0.2);
+}
+.container .header .icon-btn i {
+	color: #fff;font-size: 21px;
+}
+.container .box {
+	display: flex;flex: 1
+}
+.container .box .aside-bar {
+	background: #24293d;width: 100px;
+}
+.container .box .aside-bar a {
+	padding: 0 10px;width: 100%;box-sizing: border-box;line-height: 44px;color: #fff
+}
+.container .box .aside-bar a i {
+	font-size: 21px;margin-right: 10px;vertical-align: middle;
+}
+.container .box .warp {
+	display: flex;flex-direction: column;flex: 1;
+}
+.container .box .warp .topbar {
+	height: 40px;padding-left: 30px;display: flex;border-bottom: 1px solid #ffffff;
+	box-shadow: 0 2px 3px 0 #ced1d3
+}
+.container .box .warp .topbar .title {
+	line-height: 40px;margin-right: 20px;
+}
+.container .box .warp .topbar .topbar-box {
+	display: flex;justify-content: space-between;flex: 1;
+}
+.container .box .warp .topbar .topbar-box .bar-left {
+	display: flex;align-items: center
+}
+.container .box .warp .topbar .bar-left select {
+	padding: 5px;
+}
+.container .box .warp .topbar .topbar-box .bar-mid {
+	display: flex;align-items: center;font-size: 14px;
+}
+.container .box .warp .topbar .topbar-box .bar-mid a {
+	padding: 0 10px;text-align: center;line-height: 24px;
+}
+.container .box .warp .topbar .topbar-box .bar-mid .list {
+	background: #5d6479;color: #fff;border: 1px solid #5d6479;border-radius: 3px 0 0 3px
+}
+.container .box .warp .topbar .topbar-box .bar-mid .review {
+	background: #fff;color: black;border: 1px solid #5d6479;border-radius: 0 3px 3px 0 
+}
+.container .box .warp .topbar .topbar-box .bar-right {
+	display: flex;align-items: center;padding-right: 20px;
+}
+.container .box .warp .topbar .topbar-box .bar-right a {
+	padding: ;border: 1px solid #c5ccd0;width: 80px;text-align: center;color: #232323;
+	border-radius: 2px;line-height: 24px;font-size: 12px;
+}
+.container .box .warp .bar-body {
+	flex: 1;
+}
+.container .box .warp .bar-body .lesson {
+	flex: 1;padding: 0 30px 0 20px
+}
+.container .box .warp .bar-body .lesson .item-list {
+	height: 58px;border-bottom: 1px solid lightgrey;display: flex;align-items: center;
+}
+.date {
+	margin-left: 10px;
+}
+.container .box .warp .bar-body .lesson .item-list .indent {
+	border-radius: 3px;margin-left: 10px;line-height: 26px;
+	display: flex;
+}
+.container .box .warp .bar-body .lesson .item-list .indent .i1 {
+	border-radius: 3px 0 0 3px;background: rgb(106, 191, 35);
+	border: 1px solid rgb(106, 191, 35);height: 26px;display: inline-block;padding: 2px 8px;
+}
+.container .box .warp .bar-body .lesson .item-list .indent .i2 {
+	padding: 2px 8px;display: inline-block;background: #fff;
+	border-radius: 0 3px 3px 0;height: 26px;border: 1px solid rgb(106, 191, 35);
+}
+.container .box .warp .bar-body .lesson .item-list .setkejian {
+	padding-right: 20px;text-align: right;
+}
+.container .box .warp .bar-body .lesson .item-list .setcourse {
+	border: solid 1px #24b9fd;color:  #24b9fd;line-height: 28px;
+	border-radius: 3px;padding: 0 10px;
+}
+.layout {
+	flex: 1
+}
+.layoutx {
+	flex: 2;
+}
+.container .box .warp .bar-body .nomore {
+	text-align: center;line-height: 36px;color: lightgrey
+}
