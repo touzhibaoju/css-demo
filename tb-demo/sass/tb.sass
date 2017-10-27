@@ -1,0 +1,704 @@
+body,html
+	width: 100%
+	height: 100%
+	font-size: 12px
+	color: #3C3C3C
+	background: #f4f4f4
+*
+	margin: 0px
+	padding: 0px
+a 
+	text-decoration: none
+	color: #3C3C3C
+li
+	list-style: none
+.mid
+	width: 1190px
+	margin: 0 auto
+.clearfix:after
+	content: ''
+	clear: both
+	display: block
+
+.top_header
+	border-bottom: 1px solid #eee
+	.mid
+		display: flex
+		justify-content: space-between
+		.top_hl
+			display: flex
+			.log_reg
+				a
+					margin-right: 5px
+				.site_login
+					color: #f22e00
+			.address
+				display: flex
+				font-weight: 800
+		.top_hr
+			display: flex
+			.site-nav-pipe
+				color: #ddd
+		li
+			height: 35px
+			line-height: 35px
+			display: flex
+			padding: 0 5px
+			a
+				color: #666
+			.site_jt
+				margin-left: 5px
+				font-size: 12px
+.j_cup
+	padding-top: 20px
+	height: 120px
+	background: #fff
+	.mid
+		position: relative
+		.cup_logo
+			position: absolute
+			left: 0px
+			top: -20px
+			a
+				display: inline-block
+				width: 190px
+				height: 140px
+		.top_wrap
+			margin-left: 258px
+			margin-right: 302px
+			.search_nav
+				diplay: flex
+				height: 18px
+				display: flex
+				padding-top: 10px
+				li
+					margin-right: 8px
+					a
+						color: #666
+						font-size: 13px
+				.more
+					margin-left: 20px
+					color: #666
+			.wrap_tab
+				display: flex
+				a
+					padding: 0 5px
+					color: #F40
+					height: 22px
+					line-height: 22px
+					&:first-child
+						margin-left: 20px
+						color: #fff
+						background: linear-gradient(to right,#ff9000 0,#ff5000 100%)
+						border-top-left-radius: 5px
+						border-top-right-radius: 5px
+			.search
+				form
+					display: flex
+					.input_txt
+						border: 2px solid #F40
+						padding: 1em .8em
+						border-right: 0
+						border-top-left-radius: 23px
+						border-bottom-left-radius: 23px
+						position: relative
+						.camera
+							position: absolute
+							right: 10px
+							top: 9px
+							font-size: 21px
+						.mag
+							position: absolute
+							left: 17px
+							top: 9px
+							font-size: 21px
+						input
+							width: 472px
+							border: 0
+							outline: none
+					button
+						width: 74px
+						background: linear-gradient(to right,#ff9000 0,#ff5000 100%)
+						border: 0
+						color: white
+						font-size: 16px
+						border-bottom-right-radius: 23px
+						border-top-right-radius: 23px
+		.ewm
+			padding: 5px
+			position: absolute
+			top: 0px
+			right: 0px
+			border: 1px solid #eee
+			.ewmpic
+				width: 74px
+				height: 88px
+				display: block
+				p
+					color: #ff5000
+					text-align: center 
+				img
+					width: 100%
+			.closeewm
+				display: block
+				position: absolute
+				border: 1px solid #eee
+				width: 16px
+				height: 16px
+				text-align: center
+				top: 0px
+				left: -20px
+.screen
+	height: 632px
+	overflow: hidden
+	.main
+		float: left
+		width: 900px
+		height: 100%
+		.top_main
+			.aside_list
+				width: 190px
+				float: left
+				border: 1px solid #ff5000
+				border-top: 0
+				li
+					padding: 0 25px 0 19px
+					height: 32px
+					line-height: 32px
+					position: relative
+					color: #666
+					a
+						color: #666
+						font-size: 14px
+					i
+						position: absolute
+						top: 0px
+						right: 17px
+						font-size: 12px
+			.aside_bar
+				width: 520px
+				height: 502px
+				float: left
+				margin: 10px 0 0 10px
+				.bar_top
+					width: 520px
+					height: 280px
+				.bar_bottom
+					width: 520px
+					.bar_box
+						height: 200px
+						width: 520px
+						background: #fff
+					.bar_title
+						padding-top: 4px
+						border-bottom: 3px solid #ff1648
+						position: relative
+						strong
+							position: absolute
+							top: 4px
+							right: 0px
+							i
+								font-style: normal
+								color: #ff1648
+						.bar_title_tit
+							margin-left: 136px
+			.aside_rlist
+				float: left
+				width: 160px
+				height: 502px
+				margin: 10px 0 0 10px
+				p
+					padding-top: 3px
+		.bottom_main
+			padding: 14px 12px 12px 20px
+			margin-top: 20px
+			background: #fff
+			width: 890px
+			box-sizing: border-box
+			img
+				float: left
+				padding-right: 10px
+			h4
+				margin-bottom: 5px
+				font-size: 16px
+	.aside
+		width: 290px
+		height: 100%
+		background: #fff
+		float: right
+		margin-top: 10px
+		.user_ifo
+			padding: 3px 7px 10px 15px
+			height: 132px
+			text-align: center
+			.user_ifo_top
+				height: 91px
+				.user_touxiang
+					height: 56px
+					width: 76px
+					margin: 0 auto
+					a
+						width: 50px
+						height: 50px
+						border-radius: 50%
+						border: 3px solid #fff
+						display: inline-block
+						overflow: hidden
+				.member
+					a
+						color: #ff5000
+						background: #ffe4db
+						padding: 0 10px
+						border-radius: 5px
+			.three_btn
+				height: 40px
+				margin-top: 1px
+				display: flex
+				align-items: center
+				justify-content: space-around
+				a
+					background: linear-gradient(to right,#ff9000 0,#ff5000 100%)
+					color: #fff
+					font-size: 14px
+					padding: 0 20px
+					border-radius: 2px
+					height: 25px
+					line-height: 25px
+		.jubao
+			display: block
+			background: #ffe4db
+			color: #ff5000
+			text-align: center
+			height: 26px
+			line-height: 26px
+		.notice
+			height: 98px
+			padding-top: 10px
+			border-bottom: 1px solid #f4f4f4
+			.notice_tab
+				height: 24px
+				display: flex
+				justify-content: space-around
+				align-items: center
+			.notice2_tab
+				display: flex
+				flex-wrap: wrap
+				padding: 9px 12px 6px
+				a
+					width: 50%
+					margin-bottom: 5px
+					font-size: 14px
+		.list-item
+			height: 232px
+			ul
+				width: 100%
+				height: 100%
+				display: flex
+				flex-wrap: wrap
+				li
+					width: 25%
+					height: 33.333%
+					box-sizing: border-box
+					padding-bottom: 20px
+					border-right: 1px solid #f4f4f4
+					border-bottom: 1px solid #f4f4f4
+					a
+						width: 100%
+						height: 100%
+						display: flex
+						flex-direction: column
+						align-items: center
+						span
+							font-size: 24px
+							margin-top: 10px
+						p
+							font-size: 14px
+							height: 24px
+							line-height: 24px
+		.aliapp
+			font-size: 14px
+			position: relative
+			padding-left: 10px
+			height: 30px
+			line-height: 30px
+			a
+				position: absolute
+				top: 0px
+				right: 0px
+				font-size: 12px
+				color: #666
+		.app_list
+			height: 80px
+.shoping_title
+	display: flex
+	justify-content: space-between
+	position: relative
+	align-items: center
+	.right_text
+		a
+			color: #555
+			font-size: 12px
+			padding-left: 10px
+	.shoping_title_box
+		display: flex
+		align-items: center
+		height: 24px
+		a
+			height: 24px
+			img
+				height: 100%
+				margin-right: 5px
+		span
+			font-size: 12px
+			color: #666
+			margin-left: 5px
+.live_master
+	height: 166px
+	background: #fff
+	margin-top: 10px
+	box-sizing: border-box
+	padding: 20px 0 20px 20px
+	ul
+		height: 82px
+		display: flex
+		width: 100%
+		margin-top: 20px
+		li
+			width: 16.6666%
+			height: 100%
+			display: flex
+			img
+				border: 1px solid #13d0a1
+				border-radius: 100%
+			.shoping_text
+				padding-left: 10px
+				.p1
+					margin-top: 6px
+					font-size: 16px
+					font-weight: 500
+				.p2
+					height: 22px
+					line-height: 22px
+				.renqi
+					height: 30px
+					line-height: 30px
+.layout
+	display: flex
+	justify-content: space-between
+	margin-top: 10px
+	.layout_inner
+		background: #fff
+		padding: 15px 20px
+		box-sizing: border-box
+	.f1
+		height: 658px
+		width: 590px
+		.shoppingul_box
+			display: flex
+			height: 100%
+			padding-top: 20px
+			flex-wrap: wrap
+			.clear_rightpadding
+				padding-right: 0px
+			li
+				width: 33.3333%
+				height: 50%
+				box-sizing: border-box
+				padding-right: 5px
+				a
+					display: block
+					overflow: hidden
+					p
+						margin-left: 5px
+					.trade_name
+						font-size: 16px
+						height: 28px
+						line-height: 28px
+					.wenzhang
+						overflow: hidden
+						height: 24px
+						line-height: 24px
+						color: #999
+					.comments
+						color: #35b1ff
+						margin-top: 12px
+						height: 22px
+						line-height: 22px
+.f3
+	height: 264px
+	width: 100%
+	ul
+		display: flex
+		li
+			width: 33.3333%
+			padding: 0 15px
+			box-sizing: border-box
+			margin-top: 15px
+			img
+				float: left
+				margin-right: 15px
+				background: #4f4f4f
+			.haitao_name
+				height: 44px
+				font-size: 16px
+				margin-top: 11px
+			.haitao_price
+				margin-top: 12px
+				color: #999
+			.haitao_price_sale
+				margin-top: 10px
+				display: flex
+				justify-content: space-between
+				color: #FE3338
+			.now_price
+				margin-top: 10px 
+				color: #FE3338
+				font-size: 16px
+				del
+					font-size: 12px
+					color: #666
+.flag
+	width: 590px
+	height: 540px
+	ul
+		display: flex
+		flex-wrap: wrap
+		height: 100%
+		justify-content: space-between
+		li
+			width: 49%
+			height: 50%
+			box-sizing: border-box
+			padding: 6px 0 20px 0
+			.daygood
+				width: 100%
+				height: 100%
+				display: block
+				display: flex
+				flex-direction: column
+				p
+					height: 42px
+					line-height: 42px
+					font-size: 16px
+					font-weight: 800
+					span
+						font-size: 14px
+						color: #666
+						padding-left: 8px
+				.pic_box
+					flex: 1
+					display: flex
+					justify-content: space-between
+					.pic_box_r
+						display: flex
+						flex-direction: column
+						justify-content: space-between
+						img
+							width: 89px
+							height: 89px
+$purple: #8558d6
+$blue: #28ABFF
+$orange: #ff5000
+$green: #31ba98
+$red: #ff242d
+
+.layout_inner2
+	background: #fff
+	padding: 15px 0 0 0
+	box-sizing: border-box
+	.fashion_txt
+		font-size: 20px
+		padding-left: 20px
+		height: 40px
+		border-bottom: 1px solid #f4f4f4
+		&:before
+			content: ''
+			width: 4px
+			height: 16px
+			display: inline-block
+			margin-right: 10px
+.fashion
+	height: 290px
+	width: 840px
+	.color_p
+		color: $purple
+		&:before
+			background: $purple
+	ul
+		display: flex
+		margin-top: 10px
+		li
+			width: 33.3333%
+			box-sizing: border-box
+			padding: 20px 10px 15px 10px
+			border-right: 1px solid #f4f4f4
+			.fashion_titel
+				font-size: 18px
+			.fashion_tit
+				height: 22px
+				color: #999
+				line-height: 22px
+			.fashion_pic
+				padding-top: 15px
+.fashion_r
+	height: 290px
+	width: 340px
+.quality
+	width: 590px
+	height: 768px
+	display: flex
+	flex-direction: column
+	.color_b
+		color: $blue
+		&:before
+			background: $blue
+	.main
+		flex: 1
+		display: flex
+		.main_box
+			width: 50%
+			border-left: 1px solid #f4f4f4
+			box-sizing: border-box
+			display: flex
+			flex-direction: column
+			.big_pic
+				height: 317px
+				padding: 20px
+				border-bottom: 1px solid #f4f4f4
+			.small-pic
+				flex: 1
+				display: flex
+				flex-direction: column
+				.pic_item_list
+					border-bottom: 1px solid #f4f4f4
+					height: 33.3333%
+					.small-pic_item
+						padding: 10px 0 0 50px
+						display: flex
+						justify-content: space-around
+						.small-pic_txt
+							padding-top: 15px
+							a
+								display: block
+							a:first-child
+								font-size: 18px
+								height: 30px
+								line-height: 30px
+								color: #333
+							a:last-child
+								color: #666
+			.main_item
+				padding: 30px 19px
+				height: 33.333%
+				border-bottom: 1px solid #f4f4f4
+				p
+					padding-left: 10px
+					height: 32px
+					line-height: 32px
+					a
+					font-size: 16px
+					span
+						color: #666
+						font-size: 12px
+						padding-left: 5px
+				.live_pic
+					margin-top: 20px 
+
+.shihui
+	height: 251px
+	width: 100%
+	display: flex
+	flex-direction: column
+	.color_g
+		color: $green
+		&:before
+			background: $green
+	ul
+		display: flex
+		flex: 1
+		li
+			width: 20%
+			border-right: 1px solid #f4f4f4
+			padding-left: 20px
+			box-sizing: border-box
+			.shihui_tit
+				margin-top: 24px
+				a
+					font-size: 16px
+			.shihui_box
+				display: flex
+				a
+					margin-top: 5px
+					img
+						width: 120px
+						height: 120px
+				.sh_box_right
+					margin-left: 20px
+					p:first-child
+						font-size: 16px
+						height: 30px
+						margin-top: 20px
+						line-height: 30px
+					p:nth-child(2)
+						color: #666
+						font-size: 14px
+					a
+						padding: 3px 12px
+						color: #ff5000
+						border: 1px solid #ff5000
+						border-radius: 12px
+						display: inline-block
+						margin: 15px 0 0 0
+.helper
+	height: 140px
+	padding-top: 40px
+	width: 25%
+	.helper_box
+		padding: 0 25px
+		.helper_box_top
+			display: flex
+			align-items: center
+			i
+				font-size: 32px
+			span
+				font-size: 16px
+				font-weight: 800
+				margin-left: 10px
+		.helper_box_bottom
+			margin-top: 20px
+			a
+				color: #666
+				padding-right: 20px
+				height: 20px
+				line-height: 20px
+.footer
+	background: #fff
+	.footer_link
+		padding: 10px 0 20px 0
+		border-top: 1px solid lightgrey
+		border-bottom: 1px solid lightgrey
+		a
+			color: #9c9c9c
+			margin: 0 5px
+		span
+			color: #9c9c9c
+	.footer_about
+		margin-top: 20px
+		height: 100px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						
